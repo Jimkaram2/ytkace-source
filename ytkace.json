@@ -3,6 +3,8 @@
   "identifier": "io.github.jimkaram2.ytkace",
   "sourceURL": "https://jimkaram2.github.io/ytkace-source/ytkace.json",
   "subtitle": "Auto-updated mirror of itzzace/ytkace releases",
+  "description": "Unofficial source for the YTKACE IPAs published on github.com/itzzace/ytkace.",
+  "iconURL": "https://jimkaram2.github.io/ytkace-source/icon.png",
   "website": "https://github.com/itzzace/ytkace",
   "tintColor": "#E5372B",
   "apps": [
