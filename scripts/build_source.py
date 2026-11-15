@@ -12,7 +12,9 @@ import json
 import os
 import re
 import sys
+import struct
 import urllib.request
+import zlib
 
 UPSTREAM = "itzzace/ytkace"
 OWNER = os.environ.get("SOURCE_OWNER", "Jimkaram2")
@@ -20,6 +22,7 @@ REPO = os.environ.get("SOURCE_REPO", "ytkace-source")
 PAGES = f"https://{OWNER.lower()}.github.io/{REPO}"
 BUNDLE_ID = "com.google.ios.youtube"
 MAX_VERSIONS = 10
+ICON_URL = f"{PAGES}/icon.png"
 
 IPA_RE = re.compile(r"^YTKACE_(?P<v>[\d.]+)_YouTube_(?P<ios16>iOS16_)?(?P<yt>[\d.]+)\.ipa$")
 
@@ -69,6 +72,7 @@ def build(releases, ios16):
         "localizedDescription": "Unofficial source that mirrors the IPAs published on "
                                 f"github.com/{UPSTREAM}/releases. Files are downloaded "
                                 "directly from those GitHub releases, unmodified.",
+        "iconURL": ICON_URL,  # Feather refuses apps without one
         "tintColor": "#E5372B",
         "category": "entertainment",
         "screenshotURLs": [
@@ -99,7 +103,38 @@ def build(releases, ios16):
     }
 
 
+def write_icon(path, size=256):
+    """Draw a simple original icon (white download arrow on red) as a PNG."""
+    bg, fg = (0xE5, 0x37, 0x2B), (255, 255, 255)
+    r, c = size * 0.22, size / 2
+    rows = []
+    for y in range(size):
+        row = bytearray([0])
+        for x in range(size):
+            # rounded-square mask
+            dx = max(r - x, 0, x - (size - 1 - r))
+            dy = max(r - y, 0, y - (size - 1 - r))
+            if dx * dx + dy * dy > r * r:
+                row += bytes((0, 0, 0, 0))
+                continue
+            u, v = (x - c) / size, (y - c) / size
+            shaft = abs(u) < 0.07 and -0.30 < v < 0.06
+            head = 0.0 <= v < 0.20 and abs(u) < (0.20 - v) * 1.1
+            bar = abs(u) < 0.26 and 0.26 < v < 0.33
+            row += bytes((*(fg if shaft or head or bar else bg), 255))
+        rows.append(bytes(row))
+
+    def chunk(tag, data):
+        return struct.pack(">I", len(data)) + tag + data + struct.pack(">I", zlib.crc32(tag + data))
+
+    png = b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", struct.pack(">IIBBBBB", size, size, 8, 6, 0, 0, 0))
+    png += chunk(b"IDAT", zlib.compress(b"".join(rows), 9)) + chunk(b"IEND", b"")
+    with open(path, "wb") as fh:
+        fh.write(png)
+
+
 def main(out_dir="."):
+    write_icon(os.path.join(out_dir, "icon.png"))
     releases = fetch_releases()
     for ios16 in (False, True):
         filename, source = build(releases, ios16)
