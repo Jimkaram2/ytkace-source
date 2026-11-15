@@ -12,6 +12,7 @@
       "developerName": "itzzace",
       "subtitle": "YouTube with downloads, SponsorBlock and background play",
       "localizedDescription": "Unofficial source that mirrors the IPAs published on github.com/itzzace/ytkace/releases. Files are downloaded directly from those GitHub releases, unmodified.",
+      "iconURL": "https://jimkaram2.github.io/ytkace-source/icon.png",
       "tintColor": "#E5372B",
       "category": "entertainment",
       "screenshotURLs": [
