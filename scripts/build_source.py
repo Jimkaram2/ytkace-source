@@ -96,6 +96,8 @@ def build(releases, ios16):
         "identifier": f"io.github.{OWNER.lower()}.ytkace" + (".ios16" if ios16 else ""),
         "sourceURL": f"{PAGES}/{filename}",
         "subtitle": f"Auto-updated mirror of {UPSTREAM} releases",
+        "description": f"Unofficial source for the YTKACE IPAs published on github.com/{UPSTREAM}.",
+        "iconURL": ICON_URL,
         "website": f"https://github.com/{UPSTREAM}",
         "tintColor": "#E5372B",
         "apps": [app],
