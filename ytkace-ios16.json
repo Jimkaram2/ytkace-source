@@ -1,0 +1,125 @@
+{
+  "name": "YTKACE (iOS 16)",
+  "identifier": "io.github.jimkaram2.ytkace.ios16",
+  "sourceURL": "https://jimkaram2.github.io/ytkace-source/ytkace-ios16.json",
+  "subtitle": "Auto-updated mirror of itzzace/ytkace releases",
+  "website": "https://github.com/itzzace/ytkace",
+  "tintColor": "#E5372B",
+  "apps": [
+    {
+      "name": "YTKACE (iOS 16)",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "itzzace",
+      "subtitle": "YouTube with downloads, SponsorBlock and background play",
+      "localizedDescription": "Unofficial source that mirrors the IPAs published on github.com/itzzace/ytkace/releases. Files are downloaded directly from those GitHub releases, unmodified.",
+      "tintColor": "#E5372B",
+      "category": "entertainment",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/glass-home.png",
+        "https://raw.githubusercontent.com/itzzace/ytkace/main/screenshots/framed/video-player.png"
+      ],
+      "versions": [
+        {
+          "version": "1.1.7",
+          "buildVersion": "21.33.6",
+          "date": "2026-11-10T21:54:48Z",
+          "localizedDescription": "YTKACE 1.1.7 on YouTube 21.33.6.\n\nby @itzzace0\n\n1,000 stars \ud83c\udf89\nThanks for 1k stars! To celebrate, [FlareStore](https://flarestore.vip/p/ytkace) is sponsoring a giveaway of 5 certificates in the new YTKACE Telegram channel: https://t.me/ytkace\n\nWhat's new:\n\u2022 Updated to YouTube 21.45.4\n\u2022 Button Layout: drag the player buttons into YouTube's top row, the row under it, or next to the fullscreen button\n\u2022 Added a Quality Button that shows the current quality\n\u2022 Added Auto Fullscreen and Exit Fullscreen at End\n\u2022 Added Swipe to Seek\n\u2022 Added Previous/Next Skip\n\u2022 Added Keep Playing, which stops the \"Continue watching?\" pause\n\u2022 Added a Playlist tab\n\u2022 Added a default video quality and audio language for downloads\n\u2022 Added Remove Live Videos from Home\n\u2022 Added an Auto-Scroll Delay for Shorts\n\u2022 Added a minimum segment length to SponsorBlock\n\u2022 Added iPhone Duo layouts\n\nFixed:\n\u2022 Videos missing from Home on some accounts\n\u2022 Lock screen scrubbing and skip not working for downloads\n\u2022 Tabs not switching when Home is hidden\n\u2022 Live streams counted as finished in the queue\n\u2022 Auto-scroll skipping Shorts before they end\n\u2022 Show Status Bar in Fullscreen not working\n\u2022 Invisible back button with OLED in light mode\n\u2022 HLS Streams not falling back when a video fails\n\u2022 Tab icons and labels on vertical tab bars\n\nYouTube 21.45.4 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.7_YouTube_21.45.4.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.7_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.7/YTKACE_1.1.7_YouTube_iOS16_21.33.6.ipa",
+          "size": 134301547,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.1.5",
+          "buildVersion": "21.33.6",
+          "date": "2026-11-03T22:13:29Z",
+          "localizedDescription": "YTKACE 1.1.5 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.44.4\n\u2022 Normal Home Layout now brings back the old Home with topic chips\n\u2022 Added Turn Off Haptics\n\u2022 Added Open Links Directly\n\u2022 Added Remove Autoplay Prompt\n\u2022 Added Remove More Videos\n\u2022 Added an option to remove Listen with YouTube Music from the \u22ef menu\n\u2022 Added a rotate button to the downloads player\n\u2022 Captions can now be turned on in Always Off mode\n\nFixed:\n\u2022 Tab settings ignored on YouTube's glass tab bar\n\u2022 Glass tab bar with icon-only tabs\n\u2022 Startup tab when Home is hidden\n\u2022 Tab labels and icons on YouTube's icon-only tab bar\n\u2022 Subscriptions tab missing from the bottom bar, and its icon\n\u2022 Remove Channel Watermark not working\n\u2022 Remove End Screen not working\n\u2022 Keep Progress Bar Visible not working\n\nYouTube 21.44.4 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.5_YouTube_21.44.4.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.5_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.5/YTKACE_1.1.5_YouTube_iOS16_21.33.6.ipa",
+          "size": 134201839,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.1.4",
+          "buildVersion": "21.33.6",
+          "date": "2026-10-25T17:33:06Z",
+          "localizedDescription": "YTKACE 1.1.4 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.42.4\n\u2022 Added a SponsorBlock button to the player to whitelist channels, vote on segments and submit new ones\n\u2022 Added Report AI Channels to report channels to AiSList from the \u22ef menu\n\u2022 Added Clean Copied Links to remove tracking like si= from links you copy or share\n\u2022 Added options to remove items from the \u22ef menu\n\u2022 Added Tab Bar options for Liquid Glass: Default, YTKACE, YouTube or Off\n\u2022 Added Keep Shorts in Home, Search and on Channels\n\nFixed:\n\u2022 Remove Previous/Next not working in playlists\n\u2022 Blank space left when fullscreen actions are hidden\n\u2022 Remove Mixes missing some mixes\n\nYouTube 21.42.4 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.4_YouTube_21.42.4.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.4/YTKACE_1.1.4_YouTube_iOS16_21.33.6.ipa",
+          "size": 134178929,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.1.3",
+          "buildVersion": "21.33.6",
+          "date": "2026-10-11T21:19:19Z",
+          "localizedDescription": "YTKACE 1.1.3 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.41.5\n\u2022 Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n\u2022 Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n\u2022 Shorts download button sometimes missing on the new Shorts UI\n\u2022 Auto-Skip and Play Shorts Once not working on the new Shorts UI\n\u2022 Pinch to fullscreen in Shorts freezing or starting the next Short\n\u2022 Loop button not looping when Local Queue is on\n\u2022 SponsorBlock popup not fading in\n\u2022 Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa",
+          "size": 134130360,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.1.2",
+          "buildVersion": "21.33.6",
+          "date": "2026-10-04T19:13:13Z",
+          "localizedDescription": "YTKACE 1.1.2 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.40.5\n\u2022 Redesigned the download tab to look more like YouTube, with an All tab and your active downloads shown at the top\n\u2022 Smaller download popup that you can swipe away, and failed downloads stay so you can retry them\n\u2022 Playlist downloads now get the whole playlist, including private playlists and Liked videos\n\u2022 Liquid Glass tab bar is see-through while scrolling Shorts\n\u2022 Added Frosted Tab Bar option (Default, On, Off)\n\u2022 Added Normal Home Layout for the Home redesign some accounts get\n\u2022 Added Remove Horizontal Shelves\n\u2022 Added Hold to Copy Text for community posts and comments\n\u2022 Added Play Shorts Once\n\u2022 Added Two-Finger Tap to Pause\n\u2022 Added Extra Dim\n\u2022 Added Share at Current Time\n\u2022 Added Lock Screen Skip\n\u2022 Added Remove Suggestion Pill for Shorts\n\u2022 SponsorBlock skip popup now fades in and out\n\nFixed:\n\u2022 Shorts download button, Fullscreen and pinch to fullscreen on the new Shorts UI\n\u2022 Captions On picking the wrong language\n\u2022 App opening in Shorts when a different start tab is set\n\u2022 White or black bar behind the Liquid Glass tab bar\n\u2022 Share sheet position on iPad\n\nYouTube 21.40.5 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.2_YouTube_21.40.5.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.2_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.2/YTKACE_1.1.2_YouTube_iOS16_21.33.6.ipa",
+          "size": 134110280,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.1.1",
+          "buildVersion": "21.33.6",
+          "date": "2026-09-28T19:47:40Z",
+          "localizedDescription": "YTKACE 1.1.1 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.39.4\n\u2022 Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups\n\u2022 Liquid Glass settings page with a toggle for each part\n\u2022 Selected Tab Color for the tab text or the text and icon\n\u2022 Added HLS mode in Playback Fix\n\u2022 Added 5x speed in the speed menu\n\u2022 Improved native share sheet\n\nFixed:\n\u2022 Multiple scrubber dots on feed videos with a custom scrubber\n\u2022 Direct downloads using an outdated client\n\nYouTube 21.39.4 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.1_YouTube_21.39.4.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.1_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_iOS16_21.33.6.ipa",
+          "size": 133980194,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.1.0",
+          "buildVersion": "21.33.6",
+          "date": "2026-09-26T01:16:21Z",
+          "localizedDescription": "YTKACE 1.1.0 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.38.3\n\u2022 Redesigned the YTKACE library player with a floating mini player, PiP and YouTube style controls\n\u2022 SponsorBlock now skips segments in downloaded videos\n\u2022 New Download Method option with Direct downloads\n\u2022 Modify YouTube's video zoom\n\u2022 Keep Shorts in Subscriptions\n\u2022 Option to disable PiP for Shorts\n\u2022 Speed menu button\n\u2022 Options to disable HDR, remove 1080p Premium and set a separate Shorts speed\n\u2022 Layout mode option\n\u2022 Choose the subtitle language for downloads\n\nFixed:\n\u2022 PiP not working for music videos\n\u2022 Gap left by hidden comment guidelines, topic chips and community posts\n\u2022 Download and queue buttons on older YouTube versions\n\u2022 Autoplay in queues\n\u2022 Improved Playback Fix and download retrying\n\nThanks to @Ganeron11 and @kes158 for contributions\n\nYouTube 21.38.3 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.0_YouTube_21.38.3.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.0_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.0/YTKACE_1.1.0_YouTube_iOS16_21.33.6.ipa",
+          "size": 133873262,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.1",
+          "buildVersion": "21.33.6",
+          "date": "2026-09-21T19:47:04Z",
+          "localizedDescription": "YTKACE 1.0.1 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.38.2\n\u2022 Download subtitles with your videos\n\u2022 Transcript button to copy or share a video's captions\n\u2022 Added toggle to Open videos paused instead of playing right away\n\u2022 Search bar in YTKACE settings\n\nFixed:\n\u2022 Crash on iOS 15\n\u2022 Prevent Open in Shorts doing nothing\n\u2022 Stop Autoplay doing nothing\n\u2022 Queue not appearing until the video was reopened\n\u2022 Captions turning off after Playback Fix recovers a video\n\nYouTube 21.38.2 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.0.1_YouTube_21.38.2.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.0.1_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.0.1/YTKACE_1.0.1_YouTube_iOS16_21.33.6.ipa",
+          "size": 133706497,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.0.0",
+          "buildVersion": "21.33.6",
+          "date": "2026-09-20T17:12:54Z",
+          "localizedDescription": "YTKACE 1.0.0 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated to YouTube 21.37.5\n\u2022 Queue videos without Premium \u2014 play next, play last, reorder, shuffle, loop and clear\n\u2022 Playlist downloads \u2014 grab every video or pick the ones you want\n\u2022 YouTube's Download button can now open the YTKACE menu\n\u2022 Choose where the download button lives: player overlay, YouTube's button, or both\n\u2022 Save downloads to the share sheet, with separate video and audio destinations\n\u2022 Hide the products shelf\n\u2022 iOS 15 support for the tweak packages\n\nFixed:\n\u2022 2K and 4K missing from the download quality list\n\u2022 Shorts Save button not removed unless YouTube was in English\n\u2022 Community posts breaking with Block Premium Prompts on\n\u2022 Action bar disappearing while scrolling the feed\n\u2022 Settings unreachable if both the YTKACE and Library tabs were removed\n\u2022 YTKACE settings opening another tweak's settings when both were installed\n\nYouTube 21.37.5 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.0.0_YouTube_21.37.5.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.0.0_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.0.0/YTKACE_1.0.0_YouTube_iOS16_21.33.6.ipa",
+          "size": 133666448,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "0.9.3",
+          "buildVersion": "21.33.6",
+          "date": "2026-09-12T18:12:13Z",
+          "localizedDescription": "YTKACE 0.9.3 on YouTube 21.33.6.\n\nby @itzzace0\n\nWhat's new:\n\u2022 Updated for YouTube 21.36.6\n\u2022 Added a toggle to remove the Save button from Shorts\n\nFixed:\n\u2022 Fixed the feed lagging while scrolling with Remove Shorts, Products, Mixes or Community Posts on\n\u2022 Fixed the You tab moving to the end of the tab bar after changing other tabs\n\u2022 Fixed hold to speed staying stuck at the held speed after letting go\n\u2022 Fixed the Save button in Shorts overlapping the other buttons\n\u2022 Fixed Block Premium Prompts stopping community post images from opening\n\u2022 Fixed Clear Cache saying there was nothing to clear while YouTube's video cache kept growing\n\nYouTube 21.36.6 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_0.9.3_YouTube_21.36.6.ipa` for iOS 17 and newer\n\u2022 `YTKACE_0.9.3_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v0.9.3/YTKACE_0.9.3_YouTube_iOS16_21.33.6.ipa",
+          "size": 132513253,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "version": "1.1.7",
+      "versionDate": "2026-11-10T21:54:48Z",
+      "versionDescription": "YTKACE 1.1.7 on YouTube 21.33.6.\n\nby @itzzace0\n\n1,000 stars \ud83c\udf89\nThanks for 1k stars! To celebrate, [FlareStore](https://flarestore.vip/p/ytkace) is sponsoring a giveaway of 5 certificates in the new YTKACE Telegram channel: https://t.me/ytkace\n\nWhat's new:\n\u2022 Updated to YouTube 21.45.4\n\u2022 Button Layout: drag the player buttons into YouTube's top row, the row under it, or next to the fullscreen button\n\u2022 Added a Quality Button that shows the current quality\n\u2022 Added Auto Fullscreen and Exit Fullscreen at End\n\u2022 Added Swipe to Seek\n\u2022 Added Previous/Next Skip\n\u2022 Added Keep Playing, which stops the \"Continue watching?\" pause\n\u2022 Added a Playlist tab\n\u2022 Added a default video quality and audio language for downloads\n\u2022 Added Remove Live Videos from Home\n\u2022 Added an Auto-Scroll Delay for Shorts\n\u2022 Added a minimum segment length to SponsorBlock\n\u2022 Added iPhone Duo layouts\n\nFixed:\n\u2022 Videos missing from Home on some accounts\n\u2022 Lock screen scrubbing and skip not working for downloads\n\u2022 Tabs not switching when Home is hidden\n\u2022 Live streams counted as finished in the queue\n\u2022 Auto-scroll skipping Shorts before they end\n\u2022 Show Status Bar in Fullscreen not working\n\u2022 Invisible back button with OLED in light mode\n\u2022 HLS Streams not falling back when a video fails\n\u2022 Tab icons and labels on vertical tab bars\n\nYouTube 21.45.4 requires iOS 17, so there are two IPAs:\n\u2022 `YTKACE_1.1.7_YouTube_21.45.4.ipa` for iOS 17 and newer\n\u2022 `YTKACE_1.1.7_YouTube_iOS16_21.33.6.ipa` for iOS 16",
+      "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.7/YTKACE_1.1.7_YouTube_iOS16_21.33.6.ipa",
+      "size": 134301547
+    }
+  ],
+  "news": []
+}
